@@ -1,0 +1,38 @@
+{
+  "name": "file-storage-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "archiver": "^7.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "dotenv-extended": "^2.9.0",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash.debounce": "^4.0.8",
+    "method-override": "^3.0.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.3",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^5.0.2",
+    "react-pdf": "^9.0.0",
+    "rimraf": "^5.0.7",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
